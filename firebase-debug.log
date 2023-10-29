@@ -1,0 +1,37 @@
+[debug] [2023-10-28T05:11:55.730Z] ----------------------------------------------------------------------
+[debug] [2023-10-28T05:11:55.736Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-10-28T05:11:55.736Z] CLI Version:   12.7.0
+[debug] [2023-10-28T05:11:55.737Z] Platform:      win32
+[debug] [2023-10-28T05:11:55.738Z] Node Version:  v18.18.2
+[debug] [2023-10-28T05:11:55.740Z] Time:          Fri Oct 27 2023 21:11:55 GMT-0800 (GMT-08:00)
+[debug] [2023-10-28T05:11:55.740Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-28T05:11:55.755Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-28T05:11:55.756Z] > authorizing via signed-in user (esarlapraveen16@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\projects\React\expense_tracker
+
+[debug] [2023-10-29T15:08:25.947Z] ----------------------------------------------------------------------
+[debug] [2023-10-29T15:08:25.953Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-10-29T15:08:25.955Z] CLI Version:   12.7.0
+[debug] [2023-10-29T15:08:25.956Z] Platform:      win32
+[debug] [2023-10-29T15:08:25.957Z] Node Version:  v18.18.2
+[debug] [2023-10-29T15:08:25.959Z] Time:          Sun Oct 29 2023 07:08:25 GMT-0800 (GMT-08:00)
+[debug] [2023-10-29T15:08:25.959Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-29T15:08:25.970Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] Already logged in as esarlapraveen16@gmail.com
+[debug] [2023-10-29T15:08:36.184Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
